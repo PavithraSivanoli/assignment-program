@@ -1,9 +1,30 @@
-numbers=5647;
-sum=0;
-while(number>0)
+<!DOCTYPE html>
+<head>
+<title> tables using DOM</title>
+
+</head>
+<body>
+<input id="number" placeholder="enter the table number"><br><br>
+			<input id="range" placeholder="enter range"><br><br>
+				 <button onclick="start()" id="button">start</button>
+
+<div id="result">
+</div>
+</div>
+<script>
+function start()
 {
-remin=number%10;
-sum=sum+remin;
-number=number/10
-console.log(sum)
+var number=document.getElementById("number").value;
+var range=document.getElementById("range").value;
+result.innerHTML='';
+for (i=1;i<range;i++)
+{
+result.innerHTML+=number+ "x" +i+ "=" +number*i+ "<br>"
+console.log(i);
 }
+}
+</script>
+</body>
+</html>
+
+
