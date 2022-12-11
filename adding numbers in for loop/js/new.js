@@ -12,7 +12,7 @@ numbers=(numbers-rem)/10;
 console.log(sum);*/
 
 //adding numbers in even
- var n=45638
+ /*var n=45638
 sum=0
 sum1=0
 while(n>=0)
@@ -30,6 +30,24 @@ n=(n-rem)/10;
 }
 console.log(sum,sum1);
 
+*/
+var user1={
+	name:"pavi",
+	age:23,
+	getname:function()
+	{
+		console.log(this.username is +" "+this.name);
+	}
+	
+}
+user1.getname()
+
+var user2={
+	name2:"nithya",
+	age2:22,
+}
+var x=user1.getname.bind(name);
+x();
 
 
 
