@@ -1,31 +1,31 @@
-/*var a=parseInt(prompt("enter a age"));
-		var b=parseInt(prompt("enter b age"));
-		var c=parseInt(prompt("enter c age"));
+var a=parseInt("enter a age");
+		var b=parseInt("enter b age");
+		var c=parseInt("enter c age");
 		if (a>b)
 		{
-			alert("a is greater")
+			console.log("a is greater")
 		}
 		else
 		{
-			alert("not greater ")
+			console.log("not greater ")
 		}
 		 if (b>a)
 			{
-				alert("b is greater")
+				console.log("b is greater")
 			}
 			else 
 			{
-				alert("not greater")
+				console.log("not greater")
 			}
 				
 			if (c>a)
 			{
-				alert("c is greater")
+				console.log("c is greater")
 			}
 			else 
 			{
-				alert("not greater")
-			}*/
+				console.log("not greater")
+			}
 			
 				
 /*var age= parseInt(prompt("enter the age "));
